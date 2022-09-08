@@ -1,4 +1,3 @@
-<style>
   
 /* FONTS */
 
@@ -235,32 +234,30 @@ span.bookmark-text {
 }
 
 .maintextHeadline {
-    font-size: 1.9em !important;
+    font-size: 180% !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    padding: 0px 10px;
-    font-weight: 700 !important;
-    color: #710BDB;
-    margin-top: -47px;
+    padding: 0.5% 2%;
+    font-weight: 600 !important;
+    color: #000000;
     display: inline;
     z-index: 1;
-    background-color: #023E8A;
-    height: 10px;
-    background: white;
+    background: transparent;
 }
 
 .maintextHeadline:before {
     position: absolute;
     content: "";
-    width: 75px;
-    height: 90px;
-    top: -29px;
-    right: -11px;
+    width: 100%;
+    height: 140%;
+    top: -7%;
+    right: 0%;
     z-index: -1;
-    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@mainTitle2.svg);
-    background-size: 100%;
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@blueBorder_2.svg);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Quotes */
@@ -328,32 +325,30 @@ h3.hd.hd-2::before,
 }
 
 .textHeadline {
-    font-size: 1.8em !important;
+    font-size: 150% !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    padding: 6px 14px;
-    font-weight: 700 !important;
-    color: white;
+    padding: 0.5% 2%;
+    font-weight: 600 !important;
+    color: #000000;
     display: inline;
     z-index: 1;
-    background-color: transparent;
+    background: transparent;
 }
 
 .textHeadline:before {
     position: absolute;
     content: "";
-    width: 103%;
-    height: 60px;
-    top: -5px;
-    right: -5px;
+    width: 100%;
+    height: 140%;
+    top: -7%;
+    right: 0%;
     z-index: -1;
-    background: url(https://courses.campus.gov.il/asset-v1:MoF+GOV_TenderManagement_HE+2022_1+type@asset+block@titlehex4.svg);
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@pinkBorder_1.svg);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 113%;
-    transform: rotate(180deg);
-    background-position-x: right;
-    background-position-y: 38%;
+    background-position: center;
 }
 
 .xmodule_display.xmodule_VideoBlock .video{
@@ -1420,4 +1415,3 @@ span.icon.fa.fa-chevron-prev {
 
 
   
-  </style>
