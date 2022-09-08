@@ -277,6 +277,7 @@ span.bookmark-text {
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
 
+
 .wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-2 {
     color: #DB01CC;
 }
@@ -310,6 +311,35 @@ h3.hd.hd-2::before,
     background-repeat: no-repeat;
 }
 
+.xblock-student_view-video h3 {
+    font-size: 180% !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 1px 70px 1px 25px;
+    font-weight: 500 !important;
+    color: #000000;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: #F4D8DB;
+    border-radius: 50px
+}
+
+.xblock-student_view-video h3:before {
+    position: absolute;
+    content: "";
+    width: 77px;
+    height: 96px;
+    top: -20px;
+    right: -10px;
+    z-index: 1;
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@videoTitle1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
 .textHeadlineNoLine {
     font-size: 1.8em !important;
     position: relative;
@@ -342,7 +372,7 @@ h3.hd.hd-2::before,
     content: "";
     width: 100%;
     height: 140%;
-    top: -7%;
+    top: -13%;
     right: 0%;
     z-index: -1;
     background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@pinkBorder_1.svg);
