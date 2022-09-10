@@ -397,7 +397,7 @@ h3.hd.hd-2::before,
     padding: 3%;
 }
 
-.hd.problem-header, .poll-header {
+.hd.problem-header, .poll-header, .presentationHeadline, .textHeadline2 {
     font-size: 160% !important;
     position: relative;
     width: fit-content;
@@ -439,6 +439,33 @@ h3.hd.hd-2::before,
     background-repeat: no-repeat;
 }
 
+.presentationHeadline:before {
+    position: absolute;
+    content: "";
+    width: 77px;
+    height: 96px;
+    top: -21px;
+    right: 30px;
+    z-index: 1;
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@presentationTitle1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.textHeadline2:before {
+    position: absolute;
+    content: "";
+    width: 77px;
+    height: 96px;
+    top: -21px;
+    right: 30px;
+    z-index: 1;
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@textTitle1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 /* .problem-title {
@@ -748,7 +775,8 @@ solution div p {
 
 .progress-barscrollIndicator {
     height: 10px;
-    background: linear-gradient(90deg, rgba(219,1,204,1) 0%, rgba(113,11,219,1) 60%, rgba(87,6,191,1) 100%);
+    /* background: linear-gradient(90deg, rgba(219,1,204,1) 0%, rgba(113,11,219,1) 60%, rgba(87,6,191,1) 100%); */
+    background: #2C3A64;
     width: 0%;
 }
 
