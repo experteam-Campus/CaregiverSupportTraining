@@ -318,7 +318,7 @@ h3.hd.hd-2::before,
     font-family: 'Assistant', sans-serif;
     padding: 1px 70px 1px 25px;
     font-weight: 500 !important;
-    color: #000000;
+    color: #000000 ;
     margin-top: -47px;
     display: inline;
     z-index: 1;
@@ -892,12 +892,14 @@ p.accordion-display-name {
 
 /* problem icon | text icon | video icon - the number refers to the li */
 
-.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_problem .icon:before,
-.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
-.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
-    color: #710BDB;
-    font-size: 150%;
-    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum1_1.svg');
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_video .icon:before {
+    width: 30px !important;
+    height: 25px !important;
+    display: inline-block;
+    margin-top: 4px;
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@topNavArrow1.svg');
 } 
 
 
@@ -906,7 +908,7 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:last-child button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:last-child button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:last-child button.seq_video .icon:before {
-    content: url('https://courses.campus.gov.il/asset-v1:molsa+GOV_molsa_ProfessionalEthicsforServiceProviders101_HE+2022_1+type@asset+block@menuNum1_1.svg');
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@topNavLast1.svg');
     width: 30px !important;
     height: 25px !important;
     display: inline-block;
