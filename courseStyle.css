@@ -393,7 +393,7 @@ h3.hd.hd-2::before,
 
 /* .hd.hd-3, .xblock--drag-and-drop  */
 
-.problem-title {
+.hd.hd-3.problem-title {
     font-size: 180% !important;
     position: relative;
     width: fit-content;
@@ -408,7 +408,7 @@ h3.hd.hd-2::before,
     border-radius: 50px
 }
 
-.problem-title:before {
+.hd.hd-3.problem-title:before {
     position: absolute;
     content: "";
     width: 77px;
@@ -1488,3 +1488,8 @@ span.icon.fa.fa-chevron-prev {
 .update-message .textHeadline:before {
     right: 35px !important;
 }
+
+
+
+
+  
