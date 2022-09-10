@@ -391,14 +391,46 @@ h3.hd.hd-2::before,
 
 /* NEW */
 
-.hd.hd-3, .xblock--drag-and-drop .problem-title {
+/* .hd.hd-3, .xblock--drag-and-drop  */
+
+.problem-title {
+    font-size: 180% !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 1px 70px 1px 25px;
+    font-weight: 500 !important;
+    color: #000000 ;
+    margin-top: -47px;
+    display: inline;
+    z-index: 1;
+    background-color: #F4D8DB;
+    border-radius: 50px
+}
+
+.problem-title:before {
+    position: absolute;
+    content: "";
+    width: 77px;
+    height: 96px;
+    top: -20px;
+    right: -10px;
+    z-index: 1;
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@smallTirgul1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/* .problem-title {
     font-size: 1.8em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
     color: #710BDB;
     font-weight: 900 !important;
-}
+} */
 
 
 /* .hd.hd-3:before {
@@ -895,11 +927,11 @@ p.accordion-display-name {
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_video .icon:before {
-    width: 22px !important;
+    width: 24px !important;
     height: 25px !important;
     display: inline-block;
     margin-top: 6px;
-    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@topNavArrow2.svg');
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@topNavArrow3.svg');
 } 
 
 
