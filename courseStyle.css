@@ -393,7 +393,7 @@ h3.hd.hd-2::before,
 
 /* .hd.hd-3, .xblock--drag-and-drop  */
 
-.hd.problem-header {
+.hd.problem-header, .poll-header {
     font-size: 160% !important;
     position: relative;
     width: fit-content;
@@ -417,6 +417,19 @@ h3.hd.hd-2::before,
     right: 50px;
     z-index: 1;
     background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@smallTirgul1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.poll-header:before {
+    position: absolute;
+    content: "";
+    width: 77px;
+    height: 96px;
+    top: -21px;
+    right: 50px;
+    z-index: 1;
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@pollTitle1.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
