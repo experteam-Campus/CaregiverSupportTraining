@@ -394,7 +394,7 @@ h3.hd.hd-2::before,
 /* .hd.hd-3, .xblock--drag-and-drop  */
 
 .hd.problem-header {
-    font-size: 180% !important;
+    font-size: 160% !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -408,7 +408,7 @@ h3.hd.hd-2::before,
     border-radius: 50px
 }
 
-.hd.problem-title:before {
+.hd.problem-header:before {
     position: absolute;
     content: "";
     width: 77px;
@@ -703,6 +703,8 @@ solution div p {
     border: 3px solid #B3D8DD;
     padding-top: 0px !important;
     background-color: #2C3A64;
+    border-bottom-color: #B3D8DD !important;
+
 }
 
 
