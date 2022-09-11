@@ -425,7 +425,7 @@ h3.hd.hd-2::before,
     z-index: 1;
     background-color: #F4D8DB;
     border-radius: 50px;
-    top: -30px;
+    top: 0px;
     right: 15px;
 }
 
@@ -868,7 +868,7 @@ p.accordion-display-name {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
-    color: #DB01CC !important;
+    color: #2C3A64 !important;
     font-weight: 700;
     background-color: transparent;
     padding-right: 40px;
@@ -1547,14 +1547,16 @@ audio.audioPodcast {
 }
 
 .xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default:hover {
-    background: #710BDB;
-    color: #FFFFFF;
+    background: #8B425E;
+    color: #F4D8DB;
+    font-weight: 600;
 }
 
 .xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default {
-    border-color: #710BDB;
-    background: #FFFFFF;
-    color: #710BDB;
+    border-color: #8B425E;
+    background: #F4D8DB;
+    color: #8B425E;
+    font-weight: 600;
 }
 
 /*  PEVIOUS NEXT BUTTON */
@@ -1594,14 +1596,38 @@ span.icon.fa.fa-chevron-prev {
 
 .fa-chevron-next::before {
     content: "\f053";
-    color: white;
+    color: #b3d8dd;
 }
 
 .fa-chevron-prev:before {
     content: "\f054";
-    color: white;
+    color: #b3d8dd;
 }
 
+span.sequence-nav-button-label {
+    color: #b3d8dd;
+    font-weight: 500;
+}
+
+
+/* breadcrumbs*/
+
+.breadcrumbs .nav-item {
+    display: none;
+}
+
+span.nav-item.nav-item-course {
+    display: inline-block !important;
+}
+
+.breadcrumbs .fa-angle-right {
+    display: none;
+}
+
+.breadcrumbs i.fa.fa-home {
+    font-size: 28px;
+    color: #2c3a64;
+}
 
 /* TOP MENU HIDE */
 
