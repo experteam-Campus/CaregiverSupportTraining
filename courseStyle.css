@@ -859,6 +859,10 @@ p.accordion-display-name {
    
 }
 
+span.group-heading.active {
+    background: #b3d8dd;
+} 
+
 .course-index .accordion .course-navigation .button-chapter {
     box-shadow: none !important;
     background: #B3D8DD !important;
@@ -871,7 +875,7 @@ p.accordion-display-name {
     color: #2C3A64 !important;
     font-weight: 700;
     background-color: transparent;
-    padding-right: 40px;
+    padding-right: 15px;
 }
 
 
