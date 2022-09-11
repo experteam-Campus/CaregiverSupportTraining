@@ -247,29 +247,17 @@ span.bookmark-text {
 }
 
 .maintextHeadline:before {
-    /* position: absolute;
-    content: "";
-    width: 100%;
-    height: 140%;
-    top: -7%;
-    right: 0%;
-    z-index: -1;
-    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@blueBorder_2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; */
     position: absolute;
     content: "";
     width: 101%;
-    height: 180%;
-    top: -32%;
+    height: 208%;
+    top: -40%;
     right: 0%;
     z-index: -1;
     background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@blueBorder_2.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-}
+    background-position: center;}
 
 /* Quotes */
 .ethicQuote {
@@ -381,6 +369,19 @@ h3.hd.hd-2::before,
 .textHeadline:before {
     position: absolute;
     content: "";
+    width: 101%;
+    height: 208%;
+    top: -40%;
+    right: 0%;
+    z-index: -1;
+    background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@pinkBorder_1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    /* position: absolute;
+    content: "";
     width: 100%;
     height: 140%;
     top: -13%;
@@ -389,7 +390,7 @@ h3.hd.hd-2::before,
     background: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block@pinkBorder_1.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
 .xmodule_display.xmodule_VideoBlock .video{
@@ -1671,5 +1672,3 @@ span.nav-item.nav-item-course {
 
 
 
-
-  
