@@ -1464,20 +1464,18 @@ h5.exampleTitle {
 /* UNIT TOOLTIP TOP MENU */
 
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip {
-    /* text-align: right;
-    margin-top: 1px;
-    background: #00B4D8 !important;
+    text-align: right;
+    margin-top: 12px;
+    background: #2c3a64;
     color: #fff;
-    font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
     line-height: 1.41575em;
-    right: 0;
-    padding: 6px;
+    right: unset;
+    padding: 6px 10px;
     position: absolute;
-    top: -43px;
-    text-shadow: none;
+    top: 48px;
+    text-shadow: 0 -1px 0 #000;
     white-space: pre;
-    pointer-events: none; */
-    display: none;
+    pointer-events: none;
 }
 
 
@@ -1485,16 +1483,15 @@ h5.exampleTitle {
 
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip::after {
     transform: rotate(45deg);
-    left: 18px;
-    background: #00B4D8 !important;
+    left: unset;
+    background: #2c3a64 !important;
     content: " ";
     display: block;
     height: 10px;
-    right: 18px;
+    right: 5px;
     position: absolute;
-    top: 29px;
-    width: 10px;
-}
+    top: -4px;
+    width: 10px;}
 
 
 /* AUDIO */
