@@ -433,7 +433,7 @@ h3.hd.hd-2::before,
     padding: 3%;
 }
 
-.hd.problem-header, .poll-header, .presentationHeadline, .textHeadline2 {
+.hd.problem-header, .poll-header, .presentationHeadline, .textHeadline2, .xblock--drag-and-drop h3 {
     font-size: 160% !important;
     position: relative;
     width: fit-content;
@@ -465,7 +465,7 @@ h3.hd.hd-2::before,
     right: 15px;
 }
 
-.hd.problem-header:before {
+.hd.problem-header:before, .xblock--drag-and-drop h3:before {
     position: absolute;
     content: "";
     width: 77px;
