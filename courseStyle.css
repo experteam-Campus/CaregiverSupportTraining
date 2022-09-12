@@ -702,6 +702,10 @@ p.accordion-display-name:hover {
     border: 1px solid #ad0d0d;
 }
 
+.xblock--drag-and-drop .drag-container .option {
+    opacity: 1 !important;
+}
+
 
 
 
