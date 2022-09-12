@@ -22,8 +22,8 @@ label {
     color: #373537;
 }
 
-p, a, li {
-    font-size: 1.1em;
+p, a, li, td, th, label {
+    font-size: 1.1em !important;
 }
 
 a,
