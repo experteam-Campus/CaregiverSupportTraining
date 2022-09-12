@@ -777,7 +777,7 @@ solution div p {
 
 .fa-caret-down:before {
     content: "\f0d7";
-    color: #2C3A64;
+    color: #B3D8DD;
     font-size: 1.4em;
     line-height: 0.8em;
     margin-right: -10px;
@@ -785,7 +785,7 @@ solution div p {
 
 .fa-caret-right:before {
     content: "\f0d9";
-    color: #2C3A64;
+    color: #B3D8DD;
     font-size: 1.4em;
     line-height: 0.8em;
     margin-right: -10px;
@@ -892,7 +892,7 @@ p.accordion-display-name {
 }
 
 span.group-heading.active {
-    background: #b3d8dd;
+    background: #2C3A64;
 } 
 
 .course-index .accordion .course-navigation .button-chapter {
@@ -900,7 +900,7 @@ span.group-heading.active {
     background: #2C3A64 !important;
     background-image: none;
     color: #B3D8DD !important;
-    border-top: 2px solid #2C3A64;
+    border-top: 2px solid #B3D8DD;
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
@@ -922,10 +922,10 @@ span.group-heading.active {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item {
     margin: 0px 0;
     background: inherit;
-    background-color: #cbecf1;
+    background-color: #3d4e81;
     padding-top: 5px;
-    border-bottom: 1px solid #2c3a64;
-    border-top: 1px solid #2c3a64;
+    border-bottom: 1px solid #B3D8DD;
+    border-top: 1px solid #B3D8DD;
 }
 
 
@@ -936,7 +936,7 @@ p.accordion-display-name {
 
 .menu-item.active a p:before {
     content: "\279C";
-    color: #2c3a64;
+    color: #B3D8DD;
     font-size: 1.5em;
     line-height: 0.8em;
     float: right;
