@@ -904,7 +904,7 @@ span.group-heading.active {
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
-    color: #B3D8DD !important;
+    color: #e0f8fb !important;
     font-weight: 700;
     background-color: transparent;
     padding-right: 15px;
@@ -936,7 +936,7 @@ p.accordion-display-name {
 
 .menu-item.active a p:before {
     content: "\279C";
-    color: #B3D8DD;
+    color: #e0f8fb;
     font-size: 1.5em;
     line-height: 0.8em;
     float: right;
