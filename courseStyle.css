@@ -670,6 +670,54 @@ p.accordion-display-name:hover {
     margin-right: 1.2%;
 }
 
+/* .xblock--drag-and-drop .btn-brand {
+    border-color: #fcc02e;
+    background: #fcc02e;
+    color: #00517d;
+} */
+
+.xblock--drag-and-drop .popup {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border: 1px solid #008100;
+    background-color: rgb(0 129 0 / 100%);
+    width: 500px;
+    max-width: 90%;
+    min-height: 50px;
+    max-height: 90%;
+    overflow-y: auto;
+    z-index: 100;
+    /* color: white; */
+    border-radius: 15px;
+}
+
+.popup-content p {
+    color: white;
+    font-weight: bold;
+}
+
+.xblock--drag-and-drop .popup.popup-incorrect {
+    background-color: #ad0d0d;
+    border: 1px solid #ad0d0d;
+}
+
+.xblock--drag-and-drop .problem-title {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: #142657;
+}
+
+
 
 /* problem lables design */
 
