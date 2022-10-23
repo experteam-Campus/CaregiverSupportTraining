@@ -1729,9 +1729,18 @@ span.nav-item.nav-item-course {
     right: 35px !important;
 }
 
+.xmodule_display.xmodule_ProblemBlock .hint-label {
+    display: inline-block;
+    padding-right: 0em;
+    padding-left: 0.5%;
+    font-size: 18.5px;
+    font-family: 'Assistant';
+}
 
-
-
+.xmodule_display.xmodule_ProblemBlock .feedback-hint-incorrect, .xmodule_display.xmodule_ProblemBlock .feedback-hint-partially-correct, .xmodule_display.xmodule_ProblemBlock .feedback-hint-correct {
+    margin-top: 5px;
+    padding-bottom: 3%;
+}
   
 #content > div.container > div > div {
     display: block;
