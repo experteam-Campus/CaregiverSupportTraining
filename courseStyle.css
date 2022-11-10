@@ -1,4 +1,8 @@
-  
+  /*
+
+.vert, .vert p, .vert a, .vert li, .vert td, .vert th, .vert label
+
+*/
 /* FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
@@ -22,8 +26,12 @@ label {
     color: #373537;
 }
 
-p, a, li, td, th, label {
+/*p, a, li, td, th, label {
     font-size: 1.1em !important;
+}*/
+
+.vert, .vert p, .vert a, .vert li, .vert td, .vert th, .vert label {
+  font-size: 18px !important;
 }
 
 a,
@@ -238,7 +246,7 @@ span.bookmark-text {
 }
 
 .maintextHeadline {
-    font-size: 180% !important;
+    font-size: 32px !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -304,7 +312,7 @@ span.bookmark-text {
 
 h3.hd.hd-2,
 .discussion-module-title {
-    font-size: 1.8em !important;
+    font-size: 26.5px !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -332,7 +340,7 @@ h3.hd.hd-2::before,
 }
 
 .xblock-student_view-video h3.hd.hd-2 {
-    font-size: 180% !important;
+    font-size: 29px !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -375,7 +383,7 @@ h3.hd.hd-2::before,
 }
 
 .textHeadline {
-    font-size: 150% !important;
+    font-size: 26.5px !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -434,7 +442,7 @@ h3.hd.hd-2::before,
 }
 
 .hd.problem-header, .poll-header, .presentationHeadline, .textHeadline2, .xblock--drag-and-drop h3 {
-    font-size: 160% !important;
+    font-size: 26.5px !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -450,7 +458,7 @@ h3.hd.hd-2::before,
 }
 
 .pollHeadline, .tirgulHeadline, .presentationHeadline, .textHeadline2 {
-    font-size: 160% !important;
+    font-size: 26.5px !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
