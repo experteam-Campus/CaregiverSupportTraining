@@ -486,6 +486,10 @@ h3.hd.hd-2::before,
     background-repeat: no-repeat;
 }
 
+.xblock--drag-and-drop .title1 {
+    display: none !important;
+}
+
 .poll-header:before {
     position: absolute;
     content: "";
