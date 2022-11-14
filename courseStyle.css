@@ -1766,3 +1766,21 @@ span.nav-item.nav-item-course {
     position: sticky;
     top: 0;
 }
+
+/*word cloud*/
+p.total_num_words {
+    font-size: 0 !important;
+}
+
+p.total_num_words strong {
+    display: inline-block !important;
+    font-size: 18px;
+}
+
+p.total_num_words:before {
+    content: "סך כל המילים שנשלחו הוא: ";
+    font-size: 18px;
+}
+
+
+
