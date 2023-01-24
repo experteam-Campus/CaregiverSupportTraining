@@ -101,11 +101,17 @@ table tr:hover {
     border: #142654 solid 2px;
 }
 
-.accordion2.active,
+.accordion2.active{
+    background-color: #2c3a64;
+    color: #ffffff;
+    border: #b3d8dd solid 2px;
+    border-right: 25px solid #b3d8dd;
+}
+
 .accordion2:hover {
-    background-color: #fcc02eff;
-    color: #142654;
-    border: #142654 solid 2px;
+    background-color: #2c3a64;
+    color: #ffffff;
+    border: #b3d8dd solid 2px
 }
 
 .accordion2.active .arrowImg {
@@ -233,7 +239,7 @@ div.panel3.show {
 }
 
 .accplus {
-    color: #142654;
+    color: #FFFFFF;
     float: left;
     font-size: 17pt !important;
     margin-left: 5%;
