@@ -1788,4 +1788,31 @@ p.total_num_words:before {
 }
 
 
+/*רשימות מיוחדות*/
+ul#listWithLady {
+    list-style: none;
+}
+
+ul#listWithLady li::before {
+    content: "  ";
+    background: url(https://courses.campus.gov.il/assets/courseware/v1/bfec960387cd2e998f7e81cb2c1a3ab7/asset-v1:Labor+GOV_SPOC_260T_CaregiverSupportTraining_HE+2023_1+type@asset+block/%D7%9C%D7%99%D7%99%D7%A7.jpg) center 20% no-repeat;
+    vertical-align: middle;
+    background-size: 55px 35px;
+    padding-left: 45px;
+}
+
+ul#listWithLady li {
+    padding: 0.5%;
+}
+
+ul#listWithV {
+    list-style: none;
+}
+
+ul#listWithV li::before {
+    content: '✓';
+    padding-left: 0.5%;
+    font-weight: bold;
+}
+
 
