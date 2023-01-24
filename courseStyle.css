@@ -1602,8 +1602,8 @@ audio.audioPodcast {
 }
 
 .xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:checked+label {
-    background-color: #EAF9FC;
-    border: 2px solid #00B4D8;
+    background-color: #f4d8db;
+    border: 2px solid #8b425e;
 }
 
 
@@ -1611,6 +1611,7 @@ audio.audioPodcast {
 
 .xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
     padding-right: 50px;
+    font-weight: normal;
 }
 
 
@@ -1642,6 +1643,10 @@ audio.audioPodcast {
     display: inline-block;
     white-space: nowrap;
     float: none;
+    background: #8B425E;
+    color: #F4D8DB;
+    font-weight: 600;
+    border-color: #8B425E;
 }
 
 .xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
