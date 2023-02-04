@@ -45,13 +45,13 @@ span,
 
 /*  UNORDERED LIST */
 .textDiv ul li::before {
-    content: "";
-    position: absolute;
+    content: none;
+    /*position: absolute;
     width: 15px;
     height: 15px;
     background: #00b4d8;
     right: -27px;
-    bottom: 2px;
+    bottom: 2px;*/
 }
 
 /*  UNORDERED LIST */
