@@ -935,7 +935,6 @@ body .course-index .accordion .course-navigation .chapter-content-container .cha
 span.group-heading.active {
     background-color: #2C3A64;
     color: #B3D8DD!important;
-    border-right: 10px solid #B3D8DD;
     font-weight: 700 !important;
     padding: 15px 30px 15px 20px !important;
 }
@@ -962,6 +961,12 @@ span.group-heading.active {
     background-image: none;
     color: #B3D8DD !important;
     border-top: 2px solid #B3D8DD;
+}
+
+body .course-index .accordion .course-navigation .button-chapter.active .group-heading {
+    color: #b3d8dd;
+    font-weight: bold;
+    border-right: 10px solid #B3D8DD;
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active .accordion-nav .accordion-display-name {
