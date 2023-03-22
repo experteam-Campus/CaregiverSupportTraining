@@ -1804,6 +1804,20 @@ span.nav-item.nav-item-course {
     font-family: 'Assistant';
 }
 
+.xmodule_display.xmodule_ProblemBlock .hint-label {
+    font-size: 1.1em;
+}
+
+.feedback-hint-incorrect span.hint-label {
+    color: #d1000c;
+    font-weight: bold;
+}
+
+.feedback-hint-correct span.hint-label {
+    color: #61a408;
+    font-weight: bold;
+}
+
 .xmodule_display.xmodule_ProblemBlock .feedback-hint-incorrect, .xmodule_display.xmodule_ProblemBlock .feedback-hint-partially-correct, .xmodule_display.xmodule_ProblemBlock .feedback-hint-correct {
     margin-top: 5px;
     padding-bottom: 3%;
