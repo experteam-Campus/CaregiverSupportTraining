@@ -59,6 +59,15 @@ span,
     position: relative;
 }
 
+/*SUBTITLES*/
+.xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
+    max-height: 60px;
+    border-radius: 4px;
+    padding: 8px 10px 8px 30px;
+    background: rgba(0,0,0,0.75);
+    color: #e2c01f !important;
+}
+
 
 /* LINE BETWEEN COMPONENTS - KOA UPDATE */
 .course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
@@ -1165,6 +1174,7 @@ p.accordion-display-name {
 
 /* problem icon | text icon | video icon - the number refers to the li */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_video .icon:before {
@@ -1191,6 +1201,7 @@ p.accordion-display-name {
 
 /* 1 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(1) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
@@ -1209,6 +1220,7 @@ p.accordion-display-name {
 
 /* 2 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(2) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_video .icon:before {
@@ -1227,6 +1239,7 @@ p.accordion-display-name {
 
 /* 3 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(3) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_video .icon:before {
@@ -1245,6 +1258,7 @@ p.accordion-display-name {
 
 /* 4 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(4) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_video .icon:before {
@@ -1262,6 +1276,7 @@ p.accordion-display-name {
 
 /* 5 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(5) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_video .icon:before {
@@ -1280,6 +1295,7 @@ p.accordion-display-name {
 
 /* 6 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(6) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_video .icon:before {
@@ -1298,6 +1314,7 @@ p.accordion-display-name {
 
 /* 7 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(7) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_video .icon:before {
@@ -1316,6 +1333,7 @@ p.accordion-display-name {
 
 /* 8 */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(8) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_video .icon:before {
@@ -1333,6 +1351,7 @@ p.accordion-display-name {
 
 /* 9  */
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav ol li:nth-child(9) button .icon::before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_problem .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_other .icon:before,
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_video .icon:before {
